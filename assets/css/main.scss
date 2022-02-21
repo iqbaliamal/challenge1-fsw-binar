@@ -1,0 +1,148 @@
+$blue05: #091B6F;
+$blue04: #0D28A6;
+$blue03: #5E70C4;
+$blue02: #5E70C4;
+$blue01: #5E70C4;
+$green05: #3D7B3F;
+$green04: #5CB85F;
+$green03: #92D094;
+$green02: #C9E7CA;
+$green01: #DEF1DF;
+$danger: #FA2C5A;
+$warning: #F9CC00;
+$success: #73CA5C;
+$neutral05: #151515;
+$neutral04: #3C3C3C;
+$neutral03: #8A8A8A;
+$neutral02: #D0D0D0;
+$neutral01: #FFFFFF;
+$font-weights: ("light": 300,  "regular": 400, "medium": 500, "semibold": 600, "bold": 700, );
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: map-get($font-weights, regular);
+    font-size: 16px;
+}
+
+.title-1 {
+    font-size: 42px;
+    color: $neutral05;
+    font-weight: map-get($font-weights, bold);
+}
+
+.title-2 {
+    font-size: 24px;
+    color: $neutral05;
+    font-weight: map-get($font-weights, bold);
+}
+
+.title-3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    color: $neutral05;
+    font-weight: map-get($font-weights, regular);
+}
+
+
+.navbar {
+    padding: 20px 0 20px 0;
+    background: #F1F3FF;
+    .navbar-brand {
+        img {
+            height: 40px;
+            width: 100%;
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            padding-left: 32px;
+        }
+    }
+    .button-signup {
+        padding-left: 32px;
+    }
+}
+
+.section-1 {
+    background: #F1F3FF;
+    position: relative;
+    height: 490px;
+    .header {
+        margin: 16px 0 16px 0;
+        font-size: 36px;
+        color: $neutral05;
+        font-weight: map-get($font-weights, bold);
+    }
+    .hero {
+        height: 490px;
+    }
+}
+
+.section-2 {
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            padding-top: 10px;
+        }
+    }
+    .img-service {
+        width: 459px;
+    }
+}
+
+.img-car {
+    z-index: 2;
+    @media screen and (max-width: 991px) {
+        display: none;
+    }
+}
+
+.bg {
+    position: absolute;
+    width: 52%;
+    height: 230px;
+    background: blue;
+    right: 0;
+    top: 260px;
+    border-radius: 85px 0 0 0;
+    z-index: 1;
+    @media screen and (max-width: 991px) {
+        display: none;
+    }
+}
+
+.btn-master {
+    padding: 10px 32px 10px 30px;
+    border-radius: 2px;
+    border: 0;
+    font-weight: map-get($font-weights, medium);
+}
+
+.btn-primary {
+    @extend .btn-master;
+    background: $green04;
+    color: $neutral01;
+    &:hover {
+        background: $green05;
+    }
+}
+
+.card {
+    height: 196px;
+    width: 268px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.icon {
+    margin-bottom: 16px;
+}
