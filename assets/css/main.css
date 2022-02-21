@@ -76,6 +76,10 @@ body {
   width: 459px;
 }
 
+.section-4 {
+  padding: 5rem 0 2rem 0;
+}
+
 .img-car {
   z-index: 2;
 }
@@ -121,7 +125,6 @@ body {
 
 .card {
   height: 196px;
-  width: 268px;
 }
 
 .card-text {
