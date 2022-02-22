@@ -22,6 +22,13 @@ body {
   font-weight: 700;
 }
 
+.title-4 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
 .description {
   font-size: 16px;
   color: #151515;
@@ -77,7 +84,15 @@ body {
 }
 
 .section-4 {
-  padding: 5rem 0 2rem 0;
+  padding: 5rem 0 5rem 0;
+}
+
+.section-5 {
+  padding: 0 0 5rem 0;
+}
+
+.section-6 {
+  padding: 0 0 5rem 0;
 }
 
 .img-car {
@@ -135,5 +150,107 @@ body {
 
 .icon {
   margin-bottom: 16px;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
+.owl-nav {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  margin: 0 20px;
+  height: 32px;
+  width: 32px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background: #5CB85F;
+  border: none;
+}
+
+.blog {
+  overflow: hidden;
+  position: relative;
+  background-color: #e3d9ff;
+  color: #333;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.img-testimonials {
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  color: #fff;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.star {
+  position: relative;
+  float: left;
+  margin-bottom: 8px;
+}
+
+.desc-testi {
+  position: relative;
+  float: left;
+  text-align: left;
+  padding-right: 32px;
+}
+
+.desc-testi p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.user-testi {
+  position: relative;
+  float: left;
+  text-align: left;
+  padding-right: 32px;
+}
+
+.user-testi p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.bg-biru {
+  width: 100%;
+  height: 326px;
+  background: #0D28A6;
+  border-radius: 13px;
+}
+
+.desc-sec-5 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 52px;
+}
+
+.accordion .accordion-item {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 10px !important;
 }
 /*# sourceMappingURL=main.css.map */
